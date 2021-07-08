@@ -207,7 +207,7 @@ int delete(FILE *db_file, char *name) {
       */
 
       /* TBD */
-      if(strcmp(base->name, name) == 0){
+      
          base = p->next;
        }
       else{ p = p->next;
